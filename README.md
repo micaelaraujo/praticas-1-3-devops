@@ -59,7 +59,6 @@ Wrote HTML report to htmlcov\index.html
 
 5. Ao abrir o arquivo index.html da pasta htmlcov, ele se parecerá com o seguinte:
    ![](assets/coverage-report.png)
-
 6. É possível navegar pela página para identificar as linhas fora da cobertura de testes:
    ![](assets/coverage-app.png)
 
@@ -76,4 +75,5 @@ $ python app/app.py run
 A aplicação responderá em duas rotas na web:
 
 http://localhost:5000/health-check
+
 http://localhost:5000/hello?name=guijac
